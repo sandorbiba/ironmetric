@@ -1,0 +1,1 @@
+var e=`ironmetric:workout-completed`;function t(t){typeof window>`u`||window.dispatchEvent(new CustomEvent(e,{detail:t}))}function n(t){if(typeof window>`u`)return()=>void 0;let n=e=>{let n=e.detail;n&&t(n)};return window.addEventListener(e,n),()=>window.removeEventListener(e,n)}export{n,t};
