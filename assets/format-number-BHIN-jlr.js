@@ -1,0 +1,1 @@
+function e(e,t=2){return e.toLocaleString(`en-US`,{maximumFractionDigits:t}).replaceAll(`,`,` `)}export{e as t};
