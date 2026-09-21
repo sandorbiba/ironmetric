@@ -1,1 +1,0 @@
-function e(e){let t=Number.isFinite(e)?Math.max(0,Math.floor(e)):0,n=Math.floor(t/1440),r=Math.floor(t%1440/60),i=t%60,a=[];return n&&a.push(`${n}D`),r&&a.push(`${r}H`),(i||!a.length)&&a.push(`${i}M`),a.join(` `)}export{e as t};
