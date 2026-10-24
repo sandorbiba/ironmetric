@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-CNC7AqOf.js";var t=e({publishWorkoutCompleted:()=>r}),n=`ironmetric:workout-completed`;function r(e){typeof window>`u`||window.dispatchEvent(new CustomEvent(n,{detail:e}))}export{t as n,r as t};
