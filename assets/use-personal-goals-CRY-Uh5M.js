@@ -1,0 +1,1 @@
+import{C as e,T as t,Tt as n}from"./index-sE0U-5IV.js";var r=n();function i(n=!0){let[i,a]=(0,r.useState)(!1),[o,s]=(0,r.useState)(``),[c,l]=(0,r.useState)(0),u=e(()=>t.goals.toArray(),[]);return(0,r.useEffect)(()=>{if(a(!1),s(``),n)return t.subscribeGoals(()=>{a(!0),s(``)},e=>{s(e.message),a(!1)})},[n,c]),{goals:u??[],ready:i,error:o,retry:()=>l(e=>e+1)}}export{i as t};
