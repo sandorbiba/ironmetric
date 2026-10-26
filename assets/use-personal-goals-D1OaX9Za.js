@@ -1,1 +1,0 @@
-import{C as e,Et as t,T as n}from"./index-Bip4l107.js";var r=t();function i(t=!0){let[i,a]=(0,r.useState)(!1),[o,s]=(0,r.useState)(``),[c,l]=(0,r.useState)(0),u=e(()=>n.goals.toArray(),[]);return(0,r.useEffect)(()=>{if(a(!1),s(``),t)return n.subscribeGoals(()=>{a(!0),s(``)},e=>{s(e.message),a(!1)})},[t,c]),{goals:u??[],ready:i,error:o,retry:()=>l(e=>e+1)}}export{i as t};
