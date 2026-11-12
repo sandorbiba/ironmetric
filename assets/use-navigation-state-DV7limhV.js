@@ -1,1 +1,0 @@
-import{kt as e,w as t}from"./index-CQ2A8ck4.js";var n=e(),r=new Map;function i(e,i){let{profile:a}=t(),o=(a?.uid??`guest`)+`:`+e,[s,c]=(0,n.useState)(()=>r.has(o)?r.get(o):i);return[s,e=>{let t=r.has(o)?r.get(o):s,n=typeof e==`function`?e(t):e;r.set(o,n),c(n)}]}export{i as t};
